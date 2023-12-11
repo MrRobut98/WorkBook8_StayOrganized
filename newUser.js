@@ -33,7 +33,7 @@ window.onload = ()=>{
       .catch((error) => {
         if(res.err) {
             
-            console.error(error);
+            console.error("Your account creation was  ");
             // Handle errors here, e.g., display an error message to the user
         }
     });
